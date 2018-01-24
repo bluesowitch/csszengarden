@@ -70,3 +70,7 @@ h3 {
     letter-spacing: 1px;
     line-height: 1em;
 }
+.page-wrapper {
+	display: flex;
+	justify-content: space-around;
+}
