@@ -1,3 +1,17 @@
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #cc8ecc;	
+}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #edafed;
+}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #ccc5db;
+	}
 .page-wrapper {
 	display: grid;
 	grid-template-columns: 20% 20% 20% 20% 20%;
@@ -12,8 +26,8 @@
 	grid-area: sidebar;
 }
 .main-supporting {
-	grid-column-start: 3;
-	grid-column-end: 5;
+	grid-column-start: 5;
+	grid-column-end: 7;
 	grid-area: content;
 }
 .zen-resources {
@@ -55,17 +69,4 @@ h3 {
 	font-size: 2em;
     letter-spacing: 1px;
     line-height: 1em;
-a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #edafed;
-}
-a:visited { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #cc8ecc;	
-}
-a:hover, a:focus, a:active { 
-	text-decoration: underline; 
-	color: #edafed;
 }
