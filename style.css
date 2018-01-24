@@ -5,22 +5,21 @@
 	justify-content: space-around;
 }
 .sidebar {
-	grid-columns-start: 1;
-	grid-columns-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
 	grid-row-start: 2;
 	grid-row-end: 5;
 	grid-area: sidebar;
 }
 .main-supporting {
-	grid-columns-start: 3;
-	grid-columns-end: 5;
+	grid-column-start: 3;
+	grid-column-end: 5;
 	grid-area: content;
 }
 .zen-resources {
 	grid-area: footer;
-	grid-columns-start: 2;
-	grid-columns-end: 5;
-	g
+	grid-column-start: 2;
+	grid-column-end: 5;
 }
 body { 
 	font: 75% georgia, sans-serif;
