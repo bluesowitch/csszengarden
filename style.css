@@ -1,0 +1,70 @@
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.9;
+	color: #565a75; 
+	background: #fff url(http://3ticxle1nvi37a6h42u88jfp.wpengine.netdna-cdn.com/wp-content/uploads/2015/01/FunctionalMedicine-resized.jpg) no-repeat bottom right; 
+	margin: 0; 
+	padding: 50px 100px 50px 100px;
+	}
+	.intro { 
+	min-width: 450px;
+	width: 100%;
+	}
+h1 {
+    background: #f9def9;
+    color: #565a75;
+    display: inline-block;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    font-weight: 200;
+	font-size: 2em;
+}
+h2 {
+	display: inline-block;
+	font-weight: 900;
+	font-size: 6em;
+    letter-spacing: 1px;
+    line-height: 1em;
+}
+h3 {
+	display: inline-block;
+	font-weight: 100;
+	font-size: 2em;
+    letter-spacing: 1px;
+    line-height: 1em;
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #edafed;
+}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #cc8ecc;	
+}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #edafed;
+}
+.page-wrapper {
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+}
+.intro {
+	display: grid;
+	grid-column-start: 2;
+	grid-column-end: span 4
+	grid-area: content;
+}
+.sidebar {
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-area: sidebar;
+}
+.zen-resources {
+	grid-area: footer;
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
